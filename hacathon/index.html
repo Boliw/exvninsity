@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Recommendations</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logobtn">
+            <a href="projekti.html">
+                <img src="Untitled design (1).png" alt="Logo" style="width:200px; height:auto;">
+            </a>
+        </div>
+        <div class="about-us">
+            <a href="about-us.html" class="about-btn">ABOUT US</a>
+        </div>
+        <div class="dropdown" id="dropdown1">
+            <button class="dropbtn">CONTACT</button>
+        </div>
+        <div class="dropdown" id="dropdown2">
+            <button class="dropbtn">API</button>
+        </div>
+        <div class="dropdown" id="dropdown3">
+            <button class="dropbtn">USER</button>
+        </div>
+    </div>
+    <div class="img">
+        <img src="download (1).png" alt="" class="overlay">
+    </div>
+    <div id="chatbot" style="height: 650px;">
+        <div id="chatbot-header">Chat with Us!</div>
+        <div id="chat"></div>
+        <div id="user-input-container" style="display: flex;">
+            <input type="text" id="user-input" placeholder="Type your message..." />
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <script src="js.js"></script>
+</body>
+</html>
